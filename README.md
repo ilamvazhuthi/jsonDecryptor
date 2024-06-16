@@ -28,7 +28,7 @@ python jsonDecryptor.py
 
 After running, the script will decrypt the JSON data and save it to the specified output file path. A message will be printed to the console indicating the success of the operation and the location of the decrypted file.
 
-# Example
+Example
 Given an encrypted file encrypted_data.json and an encryption key in encryption_key.key, you can set the paths in the script as follows:
 encrypted_file_path = r'C:\path\to\encrypted_data.json'
 key_file_path = r'C:\path\to\encryption_key.key'
