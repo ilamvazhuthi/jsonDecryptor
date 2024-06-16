@@ -26,8 +26,8 @@ def decrypt_json(encrypted_file_path, key_file_path, output_file_path):
     print(f"Decrypted data has been saved to {output_file_path}")
 
 # Example usage with raw strings
-encrypted_file_path = r'C:\Users\UC300999\Downloads\JsonDecryptor\encrypted_data.json'
-key_file_path = r'C:\Users\UC300999\Downloads\JsonDecryptor\encryption_key.key'
-output_file_path = r'C:\Users\UC300999\Downloads\JsonDecryptor\decrypted_data.txt'
+encrypted_file_path = r'C:\path\to\encrypted_data.json'
+key_file_path = r'C:\path\to\encryption_key.key'
+output_file_path = r'C:\path\to\decrypted_data.json'
 
 decrypt_json(encrypted_file_path, key_file_path, output_file_path)
